@@ -1,0 +1,296 @@
+
+html {
+    align-self: center;
+    background-color: rgb(34, 34, 34);
+}
+
+*{
+    margin:3px;
+    padding:3px;
+}
+
+@font-face {
+    font-family:fonte1;
+    src: url(Market.ttf);
+}
+
+.foto1 {
+    display: block;
+    margin: 0 auto;
+    align-content: center;
+    position: relative;
+    text-align: center;
+    
+}
+
+.nome {
+    text-align: center;
+    position: relative;
+    color: rgb(173, 173, 173);
+    font-family: fonte1;
+    font-size: 30px;
+    top: 20px;
+    align-self: center;
+}
+
+.contatos{
+
+    align-self: center;
+    width: 100%;
+    top: 20px;
+    position: relative;
+    align-items: center;
+    left: 1px;
+    color: rgb(201, 201, 201);
+ 
+
+}
+
+
+.contatos1{
+    text-align: center;
+    width: 100%;
+    align-items: left;
+    position: relative;
+    width: 100%;
+    font-size: 19px;
+    align-content: flex-start;
+    text-align: left;
+    text-decoration: none;
+    font-family:Courier New;
+
+
+    
+}
+
+
+
+.formacao{
+    text-align: center;
+    align-self: center;
+    width: 100%;
+    position: relative;
+    color: rgb(173, 173, 173);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    top: 20px;
+    align-items: center;
+}
+
+
+.link{
+    align-items: center;
+    text-decoration: none;
+    color: rgb(201, 201, 201);
+}
+
+a:hover, a:active {
+   
+    color: rgb(255, 255, 255);
+  
+  }
+  .cursos{
+    align-self: center;
+    height:100%;
+    border: 1px solid rgb(70, 70, 70);
+    width: 100%;
+    top: 20px;
+    position: relative;
+    align-items: center;
+    color: rgb(201, 201, 201);
+ 
+
+}
+
+.cursos1{
+    align-items: center;
+    width: 1%;;
+    font-size: 19px;
+    text-decoration: none;
+    font-family:Courier New;
+    height: 70px;
+    
+}
+
+.cursos2{
+    align-self: center;
+    width: 1%;
+    font-size: 27px;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    height: 10px;
+    
+}
+
+
+.escola1{
+    align-items: center;
+    width: 1%;
+    font-size: 19px;
+    text-decoration: none;
+    font-family:Courier New;
+
+    
+}
+
+.escola2{
+    width: 1%;
+    font-size: 27px;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+
+    
+}
+
+.escola{
+    text-align: center;
+    width: 100%;
+    align-self: center;
+    position: relative;
+    align-items: center;
+    top: 20px;
+    color: rgb(201, 201, 201);
+ 
+
+}
+
+
+
+
+
+@media only screen and (min-width: 1010px) {
+    html {
+        background-color: rgb(34, 34, 34);
+    }
+    
+    *{
+        margin:0;
+        padding:0;
+    }
+    
+    @font-face {
+        font-family:fonte1;
+        src: url(Market.ttf);
+    }
+    
+    .foto1 {
+        position: absolute;
+        top: 17px;
+        left: 30px;
+    }
+    
+    .contatos{
+        width: 20%;
+    
+        position: absolute;
+        left: 370px;
+        top: 160px;
+        color: rgb(201, 201, 201);
+     
+    
+    }
+    
+    
+        
+    
+    .contatos1{
+        position: absolute;
+        width: 100%;
+        font-size: 19px;
+        text-decoration: none;
+        font-family:Courier New;
+        left: 35px;
+    
+        
+    }
+    
+    .nome {
+        position: absolute;
+        color: rgb(173, 173, 173);
+        font-family: fonte1;
+        font-size: 40px;
+        top: 76px;
+        left: 375px;
+    }
+    
+    .formacao{
+        text-align: left;
+        position: absolute;
+        color: rgb(173, 173, 173);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
+        top: 10px;
+        left: 40%;
+    }
+    
+    
+    .link{
+        text-decoration: none;
+        color: rgb(201, 201, 201);
+    }
+    
+    a:hover, a:active {
+       
+        color: rgb(255, 255, 255);
+      
+      }
+    
+    .cursos1{
+        width: 40%;
+        font-size: 19px;
+        text-decoration: none;
+        font-family:Courier New;
+        height: 70px;
+        
+    }
+    
+    .cursos2{
+        width: 40%;
+        font-size: 27px;
+        text-decoration: none;
+        font-family:'Times New Roman', Times, serif;
+        height: 90px;
+        
+    }
+    
+    .cursos{
+        height:200px;
+        border: 1px solid rgb(70, 70, 70);
+        width: 700px;
+        height: 70px;
+        position: absolute;
+        left: 330px;
+        top: 400px;
+        color: rgb(201, 201, 201);
+     
+    
+    }
+    .escola1{
+        width: 40%;
+        font-size: 19px;
+        text-decoration: none;
+        font-family:Courier New;
+    
+        
+    }
+    
+    .escola2{
+        width: 40%;
+        font-size: 27px;
+        text-decoration: none;
+        font-family:'Times New Roman', Times, serif;
+    
+        
+    }
+    
+    .escola{
+        width: 40%;
+    
+        position: absolute;
+        left: 370px;
+        top: 300px;
+        color: rgb(201, 201, 201);
+     
+    
+    }
+}    
